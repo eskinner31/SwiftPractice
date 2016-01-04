@@ -21,10 +21,17 @@ class Product {
 
 class Furniture: Product {
     let height: Double
-    let width: Double
-    let length: Double
-    var surfaceArea: Double {
-        return length * width
+    var width: Double
+    var length: Double
+    var surfaceArea: Double {  // GETTER & SETTER METHOD
+        get{
+            return length * width
+        }
+        set {
+            length = sqrt(newValue)
+            width = sqrt(newValue)
+        }
+        
     }//Return a value based on other stored values --> Must be a var
     
     init (title: String, price: Double, height: Double, width: Double, length: Double){
@@ -42,4 +49,22 @@ let table = Furniture(title: "Coffee Table",
                       length: 10)
 
 table.surfaceArea //GETTER METHOD
+table.width
+table.length
+
+class Electronic: Product {
+    var batteries: Bool? //Optional Property
+}
+
+let toy = Electronic(title: "RC Car", price: 79)
+
+toy.batteries = true
+if let batteries = toy.batteries {
+    if batteries {
+        print("Batteries Included")
+    }
+}
+
+
+
 
