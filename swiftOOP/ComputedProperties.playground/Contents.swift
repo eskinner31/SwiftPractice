@@ -65,6 +65,12 @@ if let batteries = toy.batteries {
     }
 }
 
+//Value Type - type whose value is copied when it is assigned a variable to a varibale or constant, or when it is passed to a function  E.G. Struct, int, double, string, array, dictionary, bool
+//Usage of value type are better because you have copies made and don't have to worry about values changing unintentionally.
+
+
+//Reference type are not copied, they copy a reference to the same value (existing instance) is used instead. E.G. Class
+
 
 
 
