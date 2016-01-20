@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6918FF4F1C4F172A002D4D7A /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6918FF4E1C4F172A002D4D7A /* ColorWheel.swift */; };
 		69815F0D1C47770A005017FC /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69815F0C1C47770A005017FC /* FactBook.swift */; };
 		69FAC1281C3C2A9200C9A8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FAC1271C3C2A9200C9A8D9 /* AppDelegate.swift */; };
 		69FAC12A1C3C2A9200C9A8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FAC1291C3C2A9200C9A8D9 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6918FF4E1C4F172A002D4D7A /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		69815F0C1C47770A005017FC /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		69FAC1241C3C2A9200C9A8D9 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FAC1271C3C2A9200C9A8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				69FAC1291C3C2A9200C9A8D9 /* ViewController.swift */,
 				69FAC12B1C3C2A9200C9A8D9 /* Main.storyboard */,
 				69FAC12E1C3C2A9200C9A8D9 /* Assets.xcassets */,
+				6918FF4E1C4F172A002D4D7A /* ColorWheel.swift */,
 				69FAC1301C3C2A9200C9A8D9 /* LaunchScreen.storyboard */,
 				69FAC1331C3C2A9200C9A8D9 /* Info.plist */,
 			);
@@ -263,6 +266,7 @@
 				69815F0D1C47770A005017FC /* FactBook.swift in Sources */,
 				69FAC12A1C3C2A9200C9A8D9 /* ViewController.swift in Sources */,
 				69FAC1281C3C2A9200C9A8D9 /* AppDelegate.swift in Sources */,
+				6918FF4F1C4F172A002D4D7A /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
